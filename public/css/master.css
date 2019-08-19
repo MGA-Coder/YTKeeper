@@ -1,0 +1,260 @@
+/* master area */
+.btn, .form-control{
+    border-radius: 0 !important;
+}
+
+/* ./ master area  */
+
+
+
+
+/*
+|------------------------------------------
+|   start watch view
+|------------------------------------------
+*/
+header.masthead .overlay{
+        opacity: 0.7;
+}
+@media (min-width: 768px){
+    header.masthead {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+}
+.video-info{
+  background-color: #FFF;
+  padding-top: 15px;
+  color: #444;
+  margin-bottom: 20px;
+}
+.img-thumbnail{
+    background-color: inherit;
+    border-radius: 0;
+    padding: 0;
+    border: 0;
+}
+.img-video{
+    position: relative;
+}
+.img-video span{
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  background-color: rgba(0, 0, 0, .8);
+  padding: 0 5px;
+  border-radius: 5px 0;
+  font-size: 12px;
+  color: #FFF;
+}
+.title_video{
+        font-size: 20px !important;
+}
+
+#download-area{
+    padding: 10px;
+    margin-top: 20px;
+}
+.head{
+        padding: 12px;
+        border-bottom: 5px solid #FFF;
+}
+.table td, .table th{
+    padding: 10px;
+}
+
+.select-type{
+    position: relative;
+}
+span.arrow {
+    position: absolute;
+    bottom: -21px;
+    left: -1px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+
+}
+.vid_btn{
+   border-top: 20px solid #dc3545;
+}
+.mp3_btn{
+   border-top: 20px solid #ffc107;
+}
+.content{
+    margin-top: 20px;
+}
+#videos-suggests{
+    width: 100%;
+    height: 420px;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+    border-bottom: 5px solid #FFF;
+}
+a.row.vidsuggest {
+  /* border-bottom: 1px solid #DDD; */
+  margin-bottom: 10px;
+  /* padding-bottom: 10px; */
+  font-size: 15px;
+  padding-right: 15px;
+  color: #000;
+  font-family: tahoma;
+  padding-left: 5px;
+}
+.vidsuggest .title{
+    padding: 0 10px;
+    font-size: 13px
+}
+a.row.vidsuggest:last-of-type {
+    border-bottom: 0 none;
+    padding-bottom: 0;
+}
+.counter, .name-channel{
+  padding: 5px 0 0 0;
+  color: #999;
+  font-size: 11px;
+  margin: 0
+}
+a.row.vidsuggest:hover{
+  text-decoration: none;
+}
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+@media (max-width: 768px){
+    .img-video img{
+        width: 100%;
+        border: 1px solid #999;
+    }
+    .img-video span {
+        bottom: 1px;
+        right: 1px;
+    }
+    .title_video {
+        margin: 22px 0;
+        text-align: center;
+    }
+    .more{
+        text-align: center;
+    }
+    .table-download-links{
+        font-size: 14px;
+    }
+    .vidsuggest .title{
+        word-break: break-all;
+    }
+}
+
+.loader-videos{
+  text-align: center;
+  padding-top: 180px
+}
+/*
+|------------------------------------------
+|   ./ watch view
+|------------------------------------------
+*/
+
+
+/*
+|------------------------------------------
+|   start features-icons
+|------------------------------------------
+*/
+.features-icons h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    margin: 0 0 50px 0;
+    color: #087184;
+  }
+  .features-icons h2>span {
+      position: absolute;
+      border-bottom: 2px solid #ced6dc;
+      top: 32px;
+      width: 200px;
+  }
+  .features-icons h2 .left {
+      left: 270px;
+  }
+  .features-icons h2 .right {
+      right: 270px;
+  }
+
+  .features-icons h3{
+    font-size: 20px;
+  }
+  .features-icons .lead{
+    font-size: 17px;
+    color: #777;
+  }
+  @media (max-width: 1200px) {
+    .features-icons h2 .left {
+        left: 120px;
+    }
+    .features-icons h2 .right {
+        right: 120px;
+    }
+  }
+
+  @media (max-width: 1024px) {
+    .features-icons h2 .left {
+        left: 120px;
+    }
+    .features-icons h2 .right {
+        right: 120px;
+    }
+  }
+
+  @media (max-width: 900px) {
+    .features-icons h2 .left {
+        left: 30px;
+    }
+    .features-icons h2 .right {
+        right: 30px;
+    }
+  }
+/* ./ features-icons */
+
+
+
+/*
+|------------------------------------------
+|   start pages
+|------------------------------------------
+*/
+.page-master{
+  padding: 50px 0;
+  margin-bottom: 10px;
+  background-color: #FFF;
+}
+.page-master h1{
+  font-size: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.page-master .breadcrumb
+{
+  font-size: 14px;
+  background-color: #f9f9f9;
+}
+.page-master h2{
+  font-size: 15px;
+}
+.page-master .content-page{
+  margin-top: 30px;
+}
+
+.page-master .b{
+  font-weight: 700;
+}
+.page-master .contact-form{
+  background-color: #f9f9f9;
+  padding: 20px;
+  font-size: 14px;
+  border: 1px solid #f1f1f1;
+  margin-top: 30px;
+}
